@@ -12,21 +12,17 @@
             box-sizing: border-box;
             font-family: 'Poppins', sans-serif;
         }
-
         body {
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            /* Modern Mesh Gradient Background */
             background: radial-gradient(at 0% 0%, #1e3c72 0%, transparent 50%),
                         radial-gradient(at 50% 0%, #2a5298 0%, transparent 50%),
                         radial-gradient(at 100% 0%, #6a11cb 0%, transparent 50%),
                         radial-gradient(at 50% 100%, #2575fc 0%, transparent 50%),
                         #0f0c29;
         }
-
-        /* Larger Card Size */
         .music-card {
             background: rgba(255, 255, 255, 0.95);
             width: 380px; 
@@ -36,12 +32,9 @@
             text-align: center;
             transition: transform 0.3s ease;
         }
-
         .music-card:hover {
             transform: translateY(-5px);
         }
-
-        /* Larger Album Art */
         .album-art-wrapper {
             width: 280px; 
             height: 280px;
@@ -50,7 +43,6 @@
             overflow: hidden;
             box-shadow: 0 15px 35px rgba(0,0,0,0.2);
         }
-
         .album-art-wrapper img {
             width: 100%;
             height: 100%;
@@ -68,8 +60,6 @@
             color: #666;
             margin-bottom: 30px;
         }
-
-        /* Static Progress Bar */
         .progress-area {
             height: 8px;
             width: 100%;
@@ -77,15 +67,12 @@
             border-radius: 10px;
             margin-bottom: 35px;
         }
-
         .progress-fill {
             height: 100%;
-            width: 45%; /* Fixed width for visual representation */
+            width: 45%; 
             background: #2a5298;
             border-radius: 10px;
         }
-
-        /* Visual Controls */
         .controls {
             display: flex;
             justify-content: space-around;
@@ -102,8 +89,6 @@
         .controls i:hover {
             color: #2a5298;
         }
-
-        /* Center Play Button Styling */
         .play-pause {
             width: 70px;
             height: 70px;
@@ -144,4 +129,5 @@
 
 </body>
 </html>
+
 
